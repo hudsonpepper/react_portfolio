@@ -18,13 +18,16 @@ body {
 header {
   position:relative;
   height:auto;
-  padding: 20px;
+  padding: 1rem;
   display: flex;
   background-color: var(--color_dark);
   color:var(--color_banner);
   justify-content: space-between;
 }
 
+h1 {
+  
+}
 .banner {
   display: flex;
   color:var(--color_dark);

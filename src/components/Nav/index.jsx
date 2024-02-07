@@ -8,16 +8,16 @@ export default function Nav() {
   return ( <>
     <Navbar
       links={[
-        <Link key={1} className="nav-link text-light" to="/">
+        <Link key={1} className="nav-link text-light mx-2" to="/">
           Portfolio
         </Link>,
-        <Link key={2} className="nav-link text-light" to="/about">
+        <Link key={2} className="nav-link text-light mx-2" to="/about">
           About Us
         </Link>,
-        <Link key={4} className="nav-link text-light" to="/contact">
+        <Link key={4} className="nav-link text-light mx-2" to="/contact">
           Contact
         </Link>,
-        <Link key={5} className="nav-link text-light" to="/resume">
+        <Link key={5} className="nav-link text-light mx-2" to="/resume">
           Resume
         </Link>,
       ]}

@@ -1,0 +1,29 @@
+* {
+  margin:0;
+  padding:0;  
+}
+:root {
+  --color_dark: #35363E;
+  --color_banner: #A5C9CC;
+  --color_background: #FDF8F5;
+}  
+body {
+  position: relative;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  background-color: var(--color_background);
+  color: #4F4846;
+}
+.top_photo {
+  display: flex;
+  position: relative;
+  background-color: var(--color_background);
+}
+.top_photo img {
+  width: 100%;
+}
+.top_photo h2 {
+  position: absolute;
+  bottom: 0.5em;
+  right: 2em;
+}
