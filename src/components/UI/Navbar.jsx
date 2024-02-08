@@ -4,6 +4,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import headshot from "/headshot.jpg"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -35,7 +36,7 @@ export default function Navbar() {
           <div className="mr-auto max-w-7xl pr-2 sm:pr-6 lg:pr-8">
             <div className="relative flex h-16 justify-between">
               <div className='flex items-center p-2 m-2 bg-slate-600 rounded'>
-                <div><img  className="object-scale-down h-8 rounded-full" src="./src/assets/headshot.jpg" alt="" /></div>
+                <div><img  className="object-scale-down h-8 rounded-full" src={headshot} alt="" /></div>
                 <h1 className="text-lg text-slate-200 p-2 font-bold">Hudson Pepper</h1>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center md:hidden">

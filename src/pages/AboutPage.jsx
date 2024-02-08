@@ -1,5 +1,5 @@
 // This is a static page mocking an "About Us" section for our fake user data
-import Banner from '../components/Banner/index'
+import Banner from '../components/Banner/'
 
 export default function AboutPage() {
   console.log("about me page")
