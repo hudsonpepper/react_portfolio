@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import portfolioData from '../utils/portfolioData'
-import API from '../utils/API';
 const posts = portfolioData();
 
 

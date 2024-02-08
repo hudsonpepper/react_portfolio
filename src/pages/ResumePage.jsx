@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 import Banner from '../components/Banner/index'
 
-import API from '../utils/API';
 
 export default function HomePage() {
 
