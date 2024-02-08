@@ -7,6 +7,7 @@ export default function AboutPage() {
     <>
       <Banner />
       <div className="container pt-4">
+        
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
