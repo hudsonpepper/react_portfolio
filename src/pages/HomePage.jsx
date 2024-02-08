@@ -19,7 +19,7 @@ export default function HomePage() {
             className="relative max-h-16 isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 pt-48 lg:pt-80"
           >
             <a href={post.githubRepo}>
-              <img src={`./src/assets/${post.imageFileName}`} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
+              <img src={`/${post.imageFileName}`} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
             </a>
             <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
             <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
